@@ -2,4 +2,5 @@
 - become: true
   hosts: web
   roles:
-    - { common_apt_install, tags: common_apt_install }
+    - common_apt_install
+
