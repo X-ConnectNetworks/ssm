@@ -1,6 +1,6 @@
 ---
 - become: true
-  hosts: web
+  hosts: all
   roles:
     - common_apt_install
 

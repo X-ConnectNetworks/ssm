@@ -1,6 +1,6 @@
 ---
 - become: true
-  hosts: batch
+  hosts: all
   roles:
     - common_apt_install
 
