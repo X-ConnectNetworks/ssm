@@ -1,4 +1,4 @@
 ---
 apt_install:
   # 共通パッケージインストール
-  - { name: "jq", state: "present" }
+  - { name: "httpd", state: "present" }
