@@ -2,4 +2,4 @@
 become_user: "ec2-user"
 apt_install:
   # 共通パッケージインストール
-  - { name: "httpd", state: "present", update_cache: "yes" }
+  - { name: "httpd", state: "present" }
