@@ -1,5 +1,5 @@
 ---
 - become: true
-  hosts: ec2
+  hosts: batch
   roles:
     - { common_apt_install, tags: common_apt_install }

@@ -1,5 +1,5 @@
 ---
 - become: true
-  hosts: ec2
+  hosts: web
   roles:
     - { common_apt_install, tags: common_apt_install }
